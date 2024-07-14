@@ -40,7 +40,7 @@ class RSA:
                 )
             )
 
-    # load my current key
+    # Load key, and accepts two types of arguments, path or the file itself
     @staticmethod
     def load_private_key(path=None, file=None):
         if file:
@@ -52,6 +52,7 @@ class RSA:
                     password=None
                 )
 
+    # Load key, and accepts two types of arguments, path or the file itself
     @staticmethod
     def load_public_key(path=None, file=None):
         if file:
@@ -60,11 +61,8 @@ class RSA:
             with open(path, 'rb') as f:
                 return serialization.load_pem_public_key(f.read())
 
-    @staticmethod
-    def save_file(file, path):
-        with open(path, 'wb') as sf:
-            sf.write(file.read())
-
+    # Encrypts the file with the given public key and saves the hashed plain text into a 'hashed file' for
+    # future comparison
     @staticmethod
     def encrypt_file(file, public_key):
         plain_text = file.read()
@@ -81,6 +79,7 @@ class RSA:
         print(ciphertext)
         return ciphertext
 
+    # Decrypt the file with the given private_key
     @staticmethod
     def decrypt_file(file, private_key):
         plaintext = private_key.decrypt(
@@ -91,18 +90,15 @@ class RSA:
                 label=None
             )
         )
-        print(plaintext)
         return plaintext
 
-
+    # Compares the previously saved hashed file with the decrypted txt
     @staticmethod
     def integrity_verification(decrypted_txt, hashed_file_path):
         with open(hashed_file_path, 'rb') as hf:
             hashtxt = hf.read()
             hashed_input = sha256(decrypted_txt).digest()
-            print(hashtxt)
-            print(hashed_input)
             if hashtxt == hashed_input:
-                return "Checks"
+                return "File Integrity is Good"
             else:
                 return 'Corrupted File'

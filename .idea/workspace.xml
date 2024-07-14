@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97ab5a12-7f63-4d7a-b1a9-e9e418813707" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GUI/UserInterface.py" beforeDir="false" afterPath="$PROJECT_DIR$/GUI/UserInterface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basisClasses/RSA.py" beforeDir="false" afterPath="$PROJECT_DIR$/basisClasses/RSA.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hashed_file" beforeDir="false" afterPath="$PROJECT_DIR$/hashed_file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/private_key" beforeDir="false" afterPath="$PROJECT_DIR$/private_key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public_key" beforeDir="false" afterPath="$PROJECT_DIR$/public_key" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/encrypted_file.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tests/encrypted_file.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_private_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_private_key.pem" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_public_key.pem" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_public_key.pem" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2evMgUJmqq8FWlkiR3w4lsOEDMl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/lucas/OneDrive/Área de Trabalho/03-04-24",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\lucas\OneDrive\Área de Trabalho\InformationSecurityProject\basisClasses" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97ab5a12-7f63-4d7a-b1a9-e9e418813707" name="Changes" comment="" />
+      <created>1712780709781</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712780709781</updated>
+      <workItem from="1712780710786" duration="3263000" />
+      <workItem from="1713018393161" duration="19458000" />
+      <workItem from="1713202304328" duration="8000" />
+      <workItem from="1713202341149" duration="10168000" />
+      <workItem from="1713878855736" duration="6348000" />
+      <workItem from="1713906323255" duration="392000" />
+      <workItem from="1713906770387" duration="3176000" />
+      <workItem from="1714390822181" duration="839000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/InformationSecurityProject$RSA.coverage" NAME="RSA Coverage Results" MODIFIED="1713714437709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basisClasses" />
+    <SUITE FILE_PATH="coverage/rsa_system$RSA.coverage" NAME="RSA Coverage Results" MODIFIED="1714000747720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basisClasses" />
+    <SUITE FILE_PATH="coverage/rsa_system$.coverage" NAME=" Coverage Results" MODIFIED="1713906380576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/InformationSecurityProject$UserInterface.coverage" NAME="UserInterface Coverage Results" MODIFIED="1713123239137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/GUI" />
+    <SUITE FILE_PATH="coverage/InformationSecurityProject$main.coverage" NAME="main Coverage Results" MODIFIED="1713713376355" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/InformationSecurityProject$.coverage" NAME=" Coverage Results" MODIFIED="1713903404452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+  </component>
+</project>
